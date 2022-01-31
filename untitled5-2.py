@@ -12,7 +12,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 
-dfa1 = pd.read_csv('filepreprocessato.csv', sep = ';', header = None)
+dfa1 = pd.read_csv('https://raw.githubusercontent.com/vincenzojrs/Data-Science-in-Action-Project/main/filepreprocessato.csv', sep = ';', header = None)
 dfa1 = dfa1.drop(0)
 dfa1 = dfa1.astype(float)
 dfa1 = dfa1.reset_index()
